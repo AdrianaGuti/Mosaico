@@ -1,4 +1,24 @@
 .table-bordered td, .table-bordered th {
-    border: 2px solid black;
-    border-width: 2px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th {
+    text-align: center;
+  }
+
+
+  
+  h1 {
+    width: 100%;
+    
+    text-align: center;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: chartreuse;
+
+  }
+
+  div.contenedor {
+    position: relative;
   }
